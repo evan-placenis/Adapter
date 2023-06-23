@@ -10,6 +10,7 @@ Adapter is useful when:
 Clients call operations on an Adapter instance, and the Adapter calls the Adaptee operations that carry out the request. Two way adapters provide transparency. This is because an adapted object no longer conforms to the adaptee interface, so it can't be used as is wherever an adaptee object can.
 
 **Benefits:**
+
 Class Adapter:
 - Lets Adapter override some of Adaptee's behavior since Adapter is a subclass of Adaptee.
 
@@ -18,6 +19,7 @@ Object Adapter:
 - Adapter can add functionality to all Adaptees at once.
 
 **Consequences:**
+
 Class Adapter:
 - Class adapter won't work when we want to adapt a class and all its subclasses.
 
